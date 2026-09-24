@@ -1,0 +1,32 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints & model weights
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# Data
+data/
+
+# Results (keep structure, ignore heavy files)
+results/directions/*.pt
+results/metrics/*.json
+results/figures/*.png
+
+# Environment
+.env
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
